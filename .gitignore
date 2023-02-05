@@ -4,8 +4,12 @@ Test_data.csv
 Validation_data.csv
 Val_data/
 Train_data/
+Train_dataSmall/
 Test_data/
 Validation_Final.csv
 Test_Final.csv
 Train_Final.csv
 Train_image_sizes.csv
+Train_dataSmall.csv
+.gitignore
+Train_FinalSmall.csv
