@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <h2>Проаналізоване зображення</h2>
+  <img src="{% url 'get_image' image_name=processed_image.image.name %}" alt="Image">
+  <p>{{ processed_image.processed_text }}</p>
+  <button >Завантажити іншу картинку</button>
+{% endblock %}

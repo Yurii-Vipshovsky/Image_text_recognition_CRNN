@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+        }
+        
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+        }
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+        }
+        
+        footer{
+            margin-top: 20vh;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>{% block title %}Image text recognition{% endblock %}</title>
+</head>
+<body>
+    <main class="nav">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 Image text recognition</p>
+    </footer>
+</body>
+</html>
